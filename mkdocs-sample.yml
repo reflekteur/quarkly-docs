@@ -31,8 +31,8 @@ theme:
     text: 'Source Sans Pro'
     code: 'Ubuntu Mono'
   icon:
-    logo: 'https://test-upl.quarkly.io/5e60efa12db4d10024432a9f/images/quarkly-beta-logo-on-dark.svg'
-  favicon: 'https://test-upl.quarkly.io/5e60efa12db4d10024432a9f/images/favicon.png'
+    logo: 'images/quarkly-beta-logo-on-dark.svg'
+  favicon: 'assets/icons/favicon.png'
 
 # Extensions
 markdown_extensions:

@@ -66,21 +66,81 @@ extra:
 
 # Page tree
 nav:
-  - 'Home': 'index.md'
-  - 'Getting started': 'material-for-mkdocs.md'
-    - 'Download boilerplate': 'getting-started/download-boilerplate.md'
-    - 'pipenv': 'getting-started/pipenv.md'
-    - 'invoke': 'getting-started/invoke.md'
-    - 'Docker': 'getting-started/docker.md'
-    - 'pip': 'getting-started/pip.md'
-  - 'Hosting and Deployment':
-    - 'Combinations': 'hosting-and-deployment/combinations.md'
-    - 'Netlify': 'hosting-and-deployment/netlify.md'
-    - 'GitHub Pages': 'hosting-and-deployment/github-pages.md'
-    - 'GitLab Pages': 'hosting-and-deployment/gitlab-pages.md'
-    - 'AWS Amplify Console': 'hosting-and-deployment/aws-amplify-console.md'
-  - 'Extensions':
-    - 'MathJax': 'extensions/mathjax.md'
-    - 'Code Hilite': 'extensions/code-hilite.md'
-    - 'Footnote': 'extensions/footnote.md'
-  - 'License': 'license.md'
+    - getting-started.md
+    - how-tos.md
+    - 'faqs':
+      - faqs.md
+      - faqs/faq-components.md
+      - faqs/faq-other.md
+    - 'interface':
+      - interface.md
+      - interface/component.md
+      - interface/dashboard.md
+      - interface/dashboard/delete-project.md
+      - interface/dashboard/new-project.md
+      - interface/dashboard/open-project.md
+      - interface/dashboard/remove-project.md
+      - interface/dashboard/restore-project.md
+      - interface/help-button.md
+      - interface/shortcuts.md
+      - interface/topbar.md
+      - interface/topbar/account-settings.md
+      - interface/topbar/preview.md
+      - interface/topbar/publish.md
+      - interface/topbar/publish/destination.md
+      - interface/topbar/publish/domain-name.md
+      - interface/topbar/publish/publish/ing-to-netlify.md
+      - interface/topbar/publish/structure.md
+      - interface/topbar/share-project.md
+      - interface/work-area.md
+      - interface/work-area/adding.md
+      - interface/work-area/adding/catalog.md
+      - interface/work-area/adding/components.md
+      - interface/work-area/adding/primitives.md
+      - interface/work-area/adding/primitives/box.md
+      - interface/work-area/adding/primitives/button.md
+      - interface/work-area/adding/primitives/hr.md
+      - interface/work-area/adding/primitives/icon.md
+      - interface/work-area/adding/primitives/image.md
+      - interface/work-area/adding/primitives/input.md
+      - interface/work-area/adding/primitives/link-primitive.md
+      - interface/work-area/adding/primitives/list.md
+      - interface/work-area/adding/primitives/section.md
+      - interface/work-area/adding/primitives/text.md
+      - interface/work-area/code-editor.md
+      - interface/work-area/code-editor/how-to-add-breakpoints-styles.md
+      - interface/work-area/code-editor/how-to-add-components.md
+      - interface/work-area/code-editor/how-to-add-props.md
+      - interface/work-area/code-editor/how-to-add-states.md
+      - interface/work-area/context-menu.md
+      - interface/work-area/edit.md
+      - interface/work-area/page.md
+      - interface/work-area/pages-and-layers.md
+      - interface/work-area/project-settings.md
+      - interface/work-area/project-settings/custom-code.md
+      - interface/work-area/project-settings/custom-code/link.md
+      - interface/work-area/project-settings/custom-code/meta.md
+      - interface/work-area/project-settings/custom-code/script.md
+      - interface/work-area/project-settings/custom-code/style.md
+      - interface/work-area/project-settings/general.md
+      - interface/work-area/project-settings/seo.md
+      - interface/work-area/project-settings/styles.md
+      - interface/work-area/props-panel.md
+      - interface/work-area/selection.md
+      - interface/work-area/theme.md
+      - interface/work-area/theme/bg-styles.md
+      - interface/work-area/theme/breakpoint.md
+      - interface/work-area/theme/color-styles.md
+      - interface/work-area/theme/filters.md
+      - interface/work-area/theme/shadows.md
+      - interface/work-area/theme/text-styles.md
+      - interface/work-area/theme/transforms.md
+      - interface/work-area/theme/transitions.md
+      - interface/work-area/view-bar.md
+      - interface/work-area/view-bar/breakpoints.md
+      - interface/work-area/view-bar/page-resolution.md
+      - interface/work-area/view-bar/presets.md
+      - interface/work-area/view-bar/zoom.md
+    - resources.md
+    - tutorials.md
+    - welcome-to-quarkly.md

@@ -1,67 +1,35 @@
-<h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
-<br>MkDocs Material<br>Boilerplate - Starter Kit
-</h1>
+Welcome to Quarkly
 
-![Eyecatch image of MkDocs Material Boilerplate (Starter Kit)](https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/material.png)
+Что такое Quarkly
 
+Quarkly — это инструмент для создания сайтов, лендингов и веб-приложений. Он совмещает в себе визуальный редактор, интегрированную среду разработки и конструктор сайтов. Специалистам web-разработки в нём доступна совместная работа над одним проектом:
 
+*   **Дизайнерам** — визуальный редактор для создания макетов, прототипов и компонентов
 
-[![license](https://img.shields.io/github/license/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/blob/master/LICENSE)
-[![release](https://img.shields.io/github/release/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/releases/latest)
-[![GitHub release date](https://img.shields.io/github/release-date/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/releases)
-[![GitHub Actions status](https://github.com/peaceiris/mkdocs-material-boilerplate/workflows/github%20pages/badge.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/actions)
+*   **Разработчикам** — готовый код, возможность добавлять бизнес-логику или писать свои собственные компоненты с нуля
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9c95ccf4-5c1e-447b-8025-dd0b6f8764a5/deploy-status)](https://app.netlify.com/sites/mkdocs-material/deploys)
-[![Docker Hub Build Status](https://img.shields.io/docker/cloud/build/peaceiris/mkdocs-material.svg)](https://hub.docker.com/r/peaceiris/mkdocs-material)
-
-<!-- https://shields.io/ -->
+*   **Контент-мейкерам** — возможность удобного редактирования и публикации
 
 
+Любой макет созданный в Quarkly — это уже готовый проект, доступный для экспорта и публикации. Ваши макеты и прототипы — это уже готовый код, который не нужно писать с нуля разработчику. А также ваш код — это готовые макеты и прототипы, которые не нужно переносить в ручную в визуальный редактор.
 
-## Details
+Как выглядит рабочий процесс
 
-Read more 👉 [Documentation - MkDocs Material Boilerplate]
+Процесс создания проекта в Quarkly делится на несколько этапов:
 
-[Documentation - MkDocs Material Boilerplate]: https://peaceiris.github.io/mkdocs-material-boilerplate/
+1.  Вы **создаете новый проект** и делитесь им с вашей командой
 
+2.  В визуальном редакторе **наполняете страницы** используя базовые примитивы и при необходимости создаете из них компоненты для повторного использования
 
+3.  При необходимости, разработчик **добавляет бизнес-логику** проекта
 
-## Quick start
-
-```sh
-git clone https://github.com/peaceiris/mkdocs-material-boilerplate.git
-cd mkdocs-material-boilerplate
-pipenv sync --dev
-pipenv shell
-inv serve --config-file mkdocs-sample.yml
-```
+4.  Вы **публикуете готовый проект** на своем или доступном в Quarkly хостинге
 
 
+Как работает Quarkly
 
-## Links
+Основой всех проектов на Quarkly является **React-компоненты** и библиотека **@quarkly/atomize**. Каждый отдельно взятый примитив на холсте редактора — это уже готовый к работе и повторному использованию код.
 
-- [mkdocs/mkdocs: Project documentation with Markdown - GitHub]
-- [squidfunk/mkdocs-material: A Material Design theme for MkDocs]
+Когда вы создаете новый макет, прототип или компонент, **Quarkly генерирует для вас реальный код**, который в дальнейшем может быть использован разработчиком и доработан, либо экспортирован и опубликован без изменений.
 
-[mkdocs/mkdocs: Project documentation with Markdown - GitHub]: https://github.com/mkdocs/mkdocs/
-[squidfunk/mkdocs-material: A Material Design theme for MkDocs]: https://github.com/squidfunk/mkdocs-material
-
-
-
-## License
-
-- [MIT License]
-- [The graduate cap icon] made by [Freepik] from [www.flaticon.com] is licensed by [CC 3.0 BY]
-
-[MIT License]: https://github.com/peaceiris/mkdocs-material-boilerplate/blob/master/LICENSE
-[The graduate cap icon]: https://www.flaticon.com/free-icon/graduate-cap_62627
-[Freepik]: https://www.freepik.com/
-[www.flaticon.com]: https://www.flaticon.com/
-[CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/
-
-
-
-## About Maintainer
-
-- [peaceiris Homepage](https://peaceiris.com/)
+Вам не стоит беспокоится, если вы не владеете навыками программирования и верстки, потому что любой компонент доступен к работе через **визуальный редактор** и многочисленные **панели свойств**. Работа в Quarkly для дизайнера, ничем не сложнее работы в любом другом графическом редакторе.

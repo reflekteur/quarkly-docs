@@ -68,11 +68,11 @@ extra:
 nav:
     - getting-started.md
     - how-tos.md
-    - 'faqs':
+    - 'FAQs':
       - faqs.md
       - faqs/faq-components.md
       - faqs/faq-other.md
-    - 'interface':
+    - 'Interface':
       - interface.md
       - interface/component.md
       - interface/dashboard.md

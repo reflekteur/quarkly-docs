@@ -30,9 +30,9 @@ theme:
   font:
     text: 'Source Sans Pro'
     code: 'Ubuntu Mono'
-  icon:
-    logo: 'images/quarkly-beta-logo-on-dark.svg'
-  favicon: 'assets/icons/favicon.png'
+  #icon:
+    #logo: 'images/quarkly-beta-logo-on-dark.svg'
+    #favicon: 'assets/icons/favicon.png'
 
 # Extensions
 markdown_extensions:

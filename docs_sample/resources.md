@@ -1,0 +1,3 @@
+The second most important work area in Quarkly is the code editor. It displays all the components and their props that you can see on the screen. You can also work with the components, their props, and values much faster than on the page. You need to be able to follow JSX syntax, know the set of available components, CSS props and values.
+
+![](https://test-upl.quarkly.io/5e60efa12db4d10024432a9f/images/docs-dashboard.png?v=2021-02-16T13:26:06.939Z)

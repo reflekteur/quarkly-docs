@@ -1,16 +1,16 @@
 # Project information
-site_name: 'MkDocs Material Boilerplate'
-site_description: 'MkDocs Material Boilerplate (Starter Kit) - Deploy documentation to hosting platforms (Netlify, GitHub Pages, GitLab Pages, and AWS Amplify Console) with Docker, pipenv, and GitHub Actions.'
-site_author: 'peaceiris'
-site_url: 'https://mkdocs.peaceiris.com/'
+site_name: 'Quarkly Docs, ёпта'
+site_description: 'Quarkly Dogs'
+site_author: 'Арсений или не Арсений'
+site_url: 'https://quarkly.io'
 
 # Copyright
 copyright: '&copy; 2019 peaceiris'
 
 # Repository
 repo_name: 'GitHub'
-repo_url: 'https://github.com/peaceiris/mkdocs-material-boilerplate'
-edit_uri: 'https://github.com/peaceiris/mkdocs-material-boilerplate/edit/master/docs_sample'
+repo_url: 'https://github.com/reflekteur/quarkly-docs'
+edit_uri: 'https://github.com/reflekteur/quarkly-docs/edit/master/docs_sample'
 
 # Configuration
 docs_dir: 'docs_sample'
@@ -23,16 +23,16 @@ theme:
     previous: 80 # p
     search: 83   # s
   palette:
-    primary: 'blue'
+    primary: 'black'
     accent: 'blue'
   features:
     - tabs
-  #font:
-    #text: 'Ubuntu'
-    #code: 'Ubuntu Mono'
-  #icon:
-    #logo: 'images/logo.svg'
-  #favicon: 'assets/images/favicon.ico'
+  font:
+    text: 'Source Sans Pro'
+    code: 'Ubuntu Mono'
+  icon:
+    logo: 'https://test-upl.quarkly.io/5e60efa12db4d10024432a9f/images/quarkly-beta-logo-on-dark.svg?v=2020-10-30T09:51:10.304Z'
+  favicon: 'https://test-upl.quarkly.io/5e60efa12db4d10024432a9f/images/favicon.png?v=2020-09-25T11:53:45.486Z'
 
 # Extensions
 markdown_extensions:
@@ -60,9 +60,7 @@ extra:
   manifest: 'manifest.json'
   social:
     - icon: 'fontawesome/brands/github-alt'
-      link: 'https://github.com/peaceiris'
-    - icon: 'fontawesome/brands/twitter'
-      link: 'https://twitter.com/piris314en'
+      link: 'https://github.com/reflekteur'
 
 # Page tree
 nav:

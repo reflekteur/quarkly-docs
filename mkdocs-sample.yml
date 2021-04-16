@@ -66,6 +66,7 @@ extra:
 
 # Page tree
 nav:
+    - welcome-to-quarkly.md
     - getting-started.md
     - how-tos.md
     - 'FAQs':
@@ -143,4 +144,3 @@ nav:
       - interface/work-area/view-bar/zoom.md
     - resources.md
     - tutorials.md
-    - welcome-to-quarkly.md
